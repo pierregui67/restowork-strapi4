@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepage_restaurants",
+  "info": {
+    "singularName": "homepage-restaurant",
+    "pluralName": "homepage-restaurants",
+    "displayName": "homepageRestaurant",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageSeo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "basic.title-content"
+    },
+    "argument": {
+      "type": "component",
+      "repeatable": false,
+      "component": "basic.title-content"
+    }
+  }
+}

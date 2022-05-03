@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepage_freelances",
+  "info": {
+    "singularName": "homepage-freelance",
+    "pluralName": "homepage-freelances",
+    "displayName": "homepageFreelance",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageSeo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "basic.title-content"
+    },
+    "description": {
+      "type": "text"
+    },
+    "argument": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic.title-content"
+    }
+  }
+}

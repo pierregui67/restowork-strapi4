@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_basic_page_seos",
+  "info": {
+    "displayName": "Title Content",
+    "icon": "atom",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepage_entreprises",
+  "info": {
+    "singularName": "homepage-entreprise",
+    "pluralName": "homepage-entreprises",
+    "displayName": "homepageEntreprise"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageSeo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "basic.title-content"
+    },
+    "introduction": {
+      "type": "component",
+      "repeatable": false,
+      "component": "basic.title-content-bloc"
+    },
+    "concept": {
+      "type": "component",
+      "repeatable": false,
+      "component": "basic.title-content-bloc"
+    }
+  }
+}
